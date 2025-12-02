@@ -161,7 +161,7 @@ const FAQ = () => {
     <section ref={sectionRef} className="bg-[#70960c] py-12 sm:py-16 md:py-24">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-20">
-          <div ref={leftColRef} className="h-full">
+          <div ref={leftColRef} className="h-full order-1 md:-order-1">
             <div
               ref={image1Ref}
               className="relative h-[400px] sm:h-[500px] md:h-[600px] bg-white rounded-2xl md:rounded-3xl overflow-hidden"
