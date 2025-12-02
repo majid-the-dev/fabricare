@@ -164,7 +164,7 @@ const FAQ = () => {
           <div ref={leftColRef} className="h-full order-1 md:-order-1">
             <div
               ref={image1Ref}
-              className="relative h-[400px] sm:h-[500px] md:h-[600px] bg-white rounded-2xl md:rounded-3xl overflow-hidden"
+              className="hidden md:block relative h-[400px] sm:h-[500px] md:h-[600px] bg-white rounded-2xl md:rounded-3xl overflow-hidden"
             >
               <Image
                 src={ProductImage}
@@ -174,7 +174,7 @@ const FAQ = () => {
               />
             </div>
 
-            <div className="text-white text-[13px] sm:text-base font-medium mt-4 sm:mt-6">
+            <div className="hidden md:block text-white text-[13px] sm:text-base font-medium mt-4 sm:mt-6">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quos
               inventore veritatis architecto assumenda iure maxime natus eius,
               magnam mollitia odit et aut distinctio debitis fugiat doloremque,
@@ -183,7 +183,7 @@ const FAQ = () => {
 
             <Link
               href="/"
-              className="inline-flex items-center gap-2 bg-[#fee231] text-slate-900 text-[13px] sm:text-base md:text-lg font-bold border-white rounded-full px-4 sm:px-6 py-2 sm:py-2 mt-4 sm:mt-6 transition-transform hover:scale-105"
+              className="inline-flex items-center gap-2 bg-[#fee231] text-slate-900 text-base md:text-lg font-bold border-white rounded-full px-4 sm:px-6 py-2 sm:py-2 mt-4 sm:mt-6 transition-transform hover:scale-105"
             >
               Shop Now
             </Link>
