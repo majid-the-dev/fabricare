@@ -174,7 +174,7 @@ const FAQ = () => {
               />
             </div>
 
-            <div className="text-white text-base sm:text-lg font-medium mt-4 sm:mt-6">
+            <div className="text-white text-[13px] sm:text-base font-medium mt-4 sm:mt-6">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quos
               inventore veritatis architecto assumenda iure maxime natus eius,
               magnam mollitia odit et aut distinctio debitis fugiat doloremque,
@@ -183,7 +183,7 @@ const FAQ = () => {
 
             <Link
               href="/"
-              className="inline-flex items-center gap-2 bg-[#fee231] text-slate-900 text-base sm:text-lg md:text-xl font-bold border-white rounded-full px-4 sm:px-6 py-2 sm:py-3 mt-4 sm:mt-6 transition-transform hover:scale-105"
+              className="inline-flex items-center gap-2 bg-[#fee231] text-slate-900 text-[13px] sm:text-base md:text-lg font-bold border-white rounded-full px-4 sm:px-6 py-2 sm:py-2 mt-4 sm:mt-6 transition-transform hover:scale-105"
             >
               Shop Now
             </Link>
@@ -211,7 +211,7 @@ const FAQ = () => {
               <h4 className="text-lg sm:text-xl font-bold text-white mt-6 sm:mt-8">
                 Because some clothes carry memories
               </h4>
-              <p className="text-white text-sm sm:text-base mt-3 sm:mt-4 leading-relaxed">
+              <p className="text-white text-[13px] sm:text-sm font-medium mt-3 sm:mt-4 leading-relaxed">
                 our wedding day dresses… that Aso Ebi.....that special birthday
                 designers.… that Owambe outfit that made you feel unforgettable.
                 These aren&apos;t just garments — they are moments you want to keep
@@ -227,7 +227,7 @@ const FAQ = () => {
               <h4 className="text-lg sm:text-xl font-bold text-white mt-6 sm:mt-8">
                 Created with this love in mind
               </h4>
-              <p className="text-white text-sm sm:text-base mt-3 sm:mt-4 leading-relaxed">
+              <p className="text-white text-[13px] sm:text-sm font-medium mt-3 sm:mt-4 leading-relaxed">
                 Scientifically formulated and NAFDAC-certified, it protects your
                 colours, strengthens your fibres, and wraps every outfit in a
                 soft, lasting fragrance — so your clothes stay as beautiful as

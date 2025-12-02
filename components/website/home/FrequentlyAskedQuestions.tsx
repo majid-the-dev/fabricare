@@ -189,13 +189,13 @@ const FrequentlyAskedQuestions = () => {
           <div ref={contentColRef} className="col-span-1 order-1 lg:order-2">
             <div
               ref={badgeRef}
-              className="text-white text-sm sm:text-base font-semibold inline-block border border-white rounded-full px-3 sm:px-4 py-1 sm:py-1.5 mb-6 sm:mb-8"
+              className="text-white text-[13px] sm:text-sm font-semibold inline-block border border-white rounded-full px-3 sm:px-4 py-1 sm:py-1.5 mb-6 sm:mb-8"
             >
               Frequently Asked Questions
             </div>
             <h1
               ref={headingRef}
-              className="text-2xl sm:text-3xl md:text-4xl font-bold text-white"
+              className="text-2xl sm:text-3xl font-bold text-white"
             >
               How can we help you?
             </h1>
@@ -207,7 +207,7 @@ const FrequentlyAskedQuestions = () => {
                   data-accordion-item
                   className="bg-white/10 rounded-xl md:rounded-2xl border-none! shadow-none! outline-none!"
                 >
-                  <AccordionTrigger className="text-white text-base sm:text-lg font-semibold px-4 sm:px-6 hover:no-underline cursor-pointer">
+                  <AccordionTrigger className="text-white text-sm sm:text-base font-semibold px-4 sm:px-6 hover:no-underline cursor-pointer">
                     Why do my clothes never feel as soft as they used to?
                   </AccordionTrigger>
                   <AccordionContent className="text-white/70 text-sm sm:text-base font-medium px-4 sm:px-6">
@@ -221,7 +221,7 @@ const FrequentlyAskedQuestions = () => {
                   data-accordion-item
                   className="bg-white/10 rounded-xl md:rounded-2xl border-none! shadow-none! outline-none!"
                 >
-                  <AccordionTrigger className="text-white text-base sm:text-lg font-semibold px-4 sm:px-6 hover:no-underline cursor-pointer">
+                  <AccordionTrigger className="text-white text-sm sm:text-base font-semibold px-4 sm:px-6 hover:no-underline cursor-pointer">
                     How can I keep my favourite clothes looking new for longer?
                   </AccordionTrigger>
                   <AccordionContent className="text-white/70 text-sm sm:text-base font-medium px-4 sm:px-6">
@@ -235,7 +235,7 @@ const FrequentlyAskedQuestions = () => {
                   data-accordion-item
                   className="bg-white/10 rounded-xl md:rounded-2xl border-none! shadow-none! outline-none!"
                 >
-                  <AccordionTrigger className="text-white text-base sm:text-lg font-semibold px-4 sm:px-6 hover:no-underline cursor-pointer">
+                  <AccordionTrigger className="text-white text-sm sm:text-base font-semibold px-4 sm:px-6 hover:no-underline cursor-pointer">
                     Why does my laundry smell fresh only sometimes?
                   </AccordionTrigger>
                   <AccordionContent className="text-white/70 text-sm sm:text-base font-medium px-4 sm:px-6">
@@ -249,7 +249,7 @@ const FrequentlyAskedQuestions = () => {
                   data-accordion-item
                   className="bg-white/10 rounded-xl md:rounded-2xl border-none! shadow-none! outline-none!"
                 >
-                  <AccordionTrigger className="text-white text-base sm:text-lg font-semibold px-4 sm:px-6 hover:no-underline cursor-pointer">
+                  <AccordionTrigger className="text-white text-sm sm:text-base font-semibold px-4 sm:px-6 hover:no-underline cursor-pointer">
                     How do I stop my clothes from shrinking
                   </AccordionTrigger>
                   <AccordionContent className="text-white/70 text-sm sm:text-base font-medium px-4 sm:px-6">
@@ -263,7 +263,7 @@ const FrequentlyAskedQuestions = () => {
                   data-accordion-item
                   className="bg-white/10 rounded-xl md:rounded-2xl border-none! shadow-none! outline-none!"
                 >
-                  <AccordionTrigger className="text-white text-base sm:text-lg font-semibold px-4 sm:px-6 hover:no-underline cursor-pointer">
+                  <AccordionTrigger className="text-white text-sm sm:text-base font-semibold px-4 sm:px-6 hover:no-underline cursor-pointer">
                     Why do stains settle faster on the clothes I love most?
                   </AccordionTrigger>
                   <AccordionContent className="text-white/70 text-sm sm:text-base font-medium px-4 sm:px-6">
