@@ -101,10 +101,10 @@ const StepItem = ({
         )}
       </div>
       <div ref={contentRef} className="flex-1 pb-8 sm:pb-12">
-        <h3 className="text-slate-900 text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+        <h3 className="text-slate-900 text-base sm:text-xl font-semibold mb-3 sm:mb-4">
           {step.title}
         </h3>
-        <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+        <p className="text-slate-500 text-[13px] sm:text-sm leading-relaxed">
           {step.description}
         </p>
       </div>
@@ -207,7 +207,7 @@ const HowItWorks = () => {
           <div ref={rightColRef} className="flex flex-col">
             <p
               ref={descriptionRef}
-              className="text-slate-600 text-base sm:text-lg leading-relaxed"
+              className="text-slate-600  text-[13px] sm:text-base leading-relaxed"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
               iste numquam distinctio voluptas consectetur assumenda expedita
@@ -215,7 +215,7 @@ const HowItWorks = () => {
               ab provident quam.
             </p>
 
-            <div className="mt-10 sm:mt-12 md:mt-14">
+            <div className="mt-10 sm:mt-12 md:mt-16">
               {steps.map((step, index) => (
                 <StepItem
                   key={step.number}
